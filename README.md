@@ -9,51 +9,66 @@ A full-stack-ready backend microservice that aggregates product data from multip
 
 **Filter Links-**
 
-✅ ON THE BASIS OF PRICE
-Get products with price ≥ 100
-👉 /categories/all/products?minPrice=100
+---
 
-Get products with price ≤ 500
-👉 /categories/all/products?maxPrice=500
+## ✅ Filter Examples
 
-Get products with price between 100 and 500
-👉 /categories/all/products?minPrice=100&maxPrice=500
+### Price Filters
 
-⭐ ON THE BASIS OF RATINGS
-Get products with rating ≥ 4
-👉 /categories/all/products?rating=4
+- Price ≥ 100  
+  https://practice-backend-llaxtuscs-overall-health.vercel.app/categories/all/products?minPrice=100
 
-🎁 ON THE BASIS OF DISCOUNT
-Get products with discount ≥ 20%
-👉 /categories/all/products?discount=20
+- Price ≤ 500  
+  https://practice-backend-llaxtuscs-overall-health.vercel.app/categories/all/products?maxPrice=500
 
-📦 ON THE BASIS OF AVAILABILITY
-Get only available products
-👉 /categories/all/products?availability=true
+- Price between 100 and 500  
+  https://practice-backend-llaxtuscs-overall-health.vercel.app/categories/all/products?minPrice=100&maxPrice=500
 
-Get only unavailable products
-👉 /categories/all/products?availability=false
+### Rating Filters
 
-📊 ON THE BASIS OF SORTING
-Sort by price (low to high)
-👉 /categories/all/products?sort=price
+- Rating ≥ 4  
+  https://practice-backend-llaxtuscs-overall-health.vercel.app/categories/all/products?rating=4
 
-Sort by rating (high to low)
-👉 /categories/all/products?sort=rating
+### Discount Filters
 
-Sort by discount (high to low)
-👉 /categories/all/products?sort=discount
+- Discount ≥ 20%  
+  https://practice-backend-llaxtuscs-overall-health.vercel.app/categories/all/products?discount=20
 
-📄 ON THE BASIS OF PAGINATION
-Page 1 with 5 products per page
-👉 /categories/all/products?n=5&page=1
+### Availability
 
-Page 2 with 5 products per page
-👉 /categories/all/products?n=5&page=2
+- Available  
+  https://practice-backend-llaxtuscs-overall-health.vercel.app/categories/all/products?availability=true
 
-🔗 COMBINED FILTERS
-Available products with rating ≥ 4, discount ≥ 15%, sorted by price
-👉 /categories/all/products?availability=true&rating=4&discount=15&sort=price
+- Unavailable  
+  https://practice-backend-llaxtuscs-overall-health.vercel.app/categories/all/products?availability=false
+
+### Sorting
+
+- Sort by Price  
+  https://practice-backend-llaxtuscs-overall-health.vercel.app/categories/all/products?sort=price
+
+- Sort by Rating  
+  https://practice-backend-llaxtuscs-overall-health.vercel.app/categories/all/products?sort=rating
+
+- Sort by Discount  
+  https://practice-backend-llaxtuscs-overall-health.vercel.app/categories/all/products?sort=discount
+
+### Pagination
+
+- Page 1 with 5 products  
+  https://practice-backend-llaxtuscs-overall-health.vercel.app/categories/all/products?n=5&page=1
+
+- Page 2 with 5 products  
+  https://practice-backend-llaxtuscs-overall-health.vercel.app/categories/all/products?n=5&page=2
+
+---
+
+## 🧠 Combined Filter Example
+
+- Available + rating ≥ 4 + discount ≥ 15 + sort by price  
+  https://practice-backend-llaxtuscs-overall-health.vercel.app/categories/all/products?availability=true&rating=4&discount=15&sort=price
+
+
 
 
 
